@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0
+}
+.nav{
+    background: black
+}
+.nav >a {
+    display: inline-block;
+    padding: 10px 10px ;
+    font-size: 16px;
+    color: #ffffff;
+    outline: none;
+}
+.sub-nav{
+    display: flex;
+}
+.sub-nav>div:nth-child(1){
+    width: 20%;
+    flex: 1 1 auto;
+}
+.sub-nav>div:nth-child(1) >a{
+    display: block;
+}
+.sub-nav>div:nth-child(2){
+    width: 80%;
+    flex: 1 1 auto;
+}
